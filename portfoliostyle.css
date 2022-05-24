@@ -1,0 +1,25 @@
+<style>
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.whatido{text-decoration: underline; 
+    font-size:large; 
+   text-align:center;
+  background-color: bisque;
+  background: scroll; background-image: url("images/istockphoto-1212342896-612x612.jpg");}
+  .work{text-decoration: underline; 
+  align-content: center; 
+  justify-content: center;
+    font-size:medium; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align:center;
+  background-color:bisque;}
+.myself{
+  color:black; text-align:center; background-color:aqua;align-items: center; font-size: xx-large; text-decoration-line: underline;
+
+  }
+.headings{ text-align: center; color:black;}
+.ul{ background-color: aquamarine;}
+</style>
