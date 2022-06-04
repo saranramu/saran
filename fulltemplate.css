@@ -1,0 +1,87 @@
+*{ box-sizing:border-box; font-family: Oxanium, cursive;
+    justify-content: space-between;}
+.border{width:80%; margin:auto}     
+.bgcolor{background:rgb(211, 168, 196);}
+.line{width:100px; height:3px; background:cornflowerblue; margin: auto; margin-bottom: 30px;}
+.heading{padding-top:60px;font-size:2.5rem;color:rgb(63, 63, 63); text-align: center;}
+.content{color:rgb(152, 150, 150); margin-bottom:70px;width:70%; margin:auto;text-align: center;padding-bottom:50px}
+/*section1*/
+.header{background-image: url("images/czh9bQ.webp");background-position: contain; color:white }
+
+.flex1{display:flex; flex-wrap: wrap; justify-content: space-between; padding-top:20px;}
+.flex1 h2{margin-top: 0px; font-weight: bold; padding-right:100px; font-size: 2rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.flex1 div{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: medium; font-weight: bold;}
+.flex1 :nth-child(9){border: dashed rgb(209, 179, 179) 2px; padding:5px; font-size: large;height:37px;}
+button{background:rgb(0, 170, 255); color:white; font-weight: bolder; border:none;height:50px;width:160px;font-size: medium;
+   font-weight:bolder}
+
+.flex2{display:flex; flex-wrap: wrap; padding-top:70px}
+.form{background: white;text-align: center;color:rgba(0, 0, 0, 0.818); height:400px; width:350px;border-bottom: solid 10px rgb(0, 170, 255);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.form div{font-weight:bold ;font-size: 1.50rem;margin-bottom: 0px; padding-top:30px; color:rgba(0, 0, 0, 0.818)}
+.flex2 form input,textarea{padding:10px; width: 80%; margin-top: 10px;font-size: medium;}
+#button{background:rgb(157, 188, 204); color:rgb(167, 120, 120); font-weight: bolder; border:none;}
+.flex2 h3{font-size:1.75rem;margin-top:40px}
+.flex2 span{border:solid white 2px;padding:5px}
+.flex2 h1{font-size:3rem;margin-bottom: 0px;margin-top: 0px}
+/*section2*/
+.flex3{display:flex; flex-wrap: wrap;padding-bottom: 10px;}
+.flex3 img{width:200px;}
+.flex3 :first-child {padding-top: 15px;}
+.flex3 :nth-child(4) {padding-top: 15px;}
+/*section3*/
+.flex5{margin-bottom:70px}
+.flex4, .flex5{display:flex; flex-wrap:wrap; text-align: center; padding-bottom: 60px;}
+.flex4 img, .flex5 img{width:350px;border:dashed 2px cornflowerblue; padding:4px;}
+.flex4 div, .flex5 div{color:rgb(152, 150, 150); }
+.flex4 h3, .flex5 h3{color:rgb(63, 63, 63); margin-bottom:0px }
+/*section4*/
+.flex7{padding-top:20px}
+.flex6, .flex7, .flex8, .flex9 {display:flex; flex-wrap: wrap;}
+.flex6 div img{width: 400px;border:dashed cornflowerblue 2px;padding: 5px;}
+.flex7 i, .flex8 i, .flex9 i{font-size:50px; color: cornflowerblue;}
+.flex7 div, .flex8 div, .flex9 div, .flex6 div{color:rgb(152, 150, 150); margin-bottom: 20px;margin-left:10px}
+.flex7 h3, .flex8 h3, .flex9 h3{color:rgb(63, 63, 63); margin-top:0%; margin-bottom:5px}
+/*section5*/
+.flex10, .flex{display: flex; flex-wrap: wrap; padding-bottom: 50px;}
+.flex10 div img{width:450px; border:dashed cornflowerblue 2px;padding: 5px;}
+.flex10 h3{color:rgb(63, 63, 63); font-size: 1.75rem;}
+.flex10 p{color:rgb(152, 150, 150); margin-bottom:50px}
+.flex10 i{font-size:3.5rem; color:white; border: solid 4px purple;background: purple;border-radius: 60px; padding:15px;}
+.flex{justify-content: space-around;}
+/*section6*/
+.iframe{border:solid black 5px; border-left:solid black 35px;border-right:solid black 35px;}
+/*section7*/
+.flex11{display: flex; flex-wrap: wrap; text-align: center;padding-bottom: 50px;}
+.flex11 div img{width:250px;border:dashed 2px cornflowerblue; padding:10px}
+.flex11 h4, .flex11 p i{color:cornflowerblue; font-size: 1.5rem;margin-top:5px; margin-bottom: 5px;}
+/*section8*/
+.flex12{display: flex; flex-wrap: wrap; color:white; text-align: center;}
+.flex12 i{font-size:60px; padding-top:70px}
+.flex12 p{font-size:3rem; font-weight: bold;margin-top: 20px;margin-bottom: 0px;}
+/*section9*/
+.client{height:80px; width:80px; background: lightgray; color:gray; font-size: small; padding-top: 30px;box-sizing: border-box;margin: auto;margin-top: 70px;}
+#clienthead{color:cornflowerblue; font-size:1.75rem;margin-bottom: 0px; text-align: center;}
+#clientcon{color:darkgray; margin-top:0px; font-weight: bold;  padding-bottom:20px;text-align: center;}
+.dashline{display:flex; margin: auto; width: 20%; justify-content: space-around;margin-top:50px; flex-wrap: wrap; padding-bottom: 50px;}
+/*section10*/
+hr{color:gainsboro; width:90%}
+.flex13 div p{color:rgb(110, 122, 252); font-size:2.5rem; font-weight:bold;margin-bottom:4px; margin-top: 10px;}
+.flex13{display:flex; flex-wrap: wrap; text-align: center; padding-bottom: 50px;}
+.basic{ height:auto; background: white; color:rgb(152, 150, 150); padding:5px; font-size: small; width:300px}
+.flex13 i{font-size:3rem}
+.flex13 h3{font-size:2rem; font-weight:bold; color:rgb(63, 63, 63); margin-bottom: 10px;}
+.button{width:90%; height:50px; background:rgb(63, 63, 63); color:white; font-size: large; margin-top:20px; margin-bottom:40px; border:none}
+.click{width:90%; height:50px; background:white; color:rgb(63, 63, 63); font-size: large; margin-top:20px; margin-bottom:40px; border:none}
+.corporate{height:auto;color:white; width:300px; background-image: linear-gradient(to right, purple, blue); padding:15px; font-size: small;border: solid white 5px;box-shadow: 10px 10px 8px 8px darkgray;}
+/*section11*/
+.flex14, .flex15{display: flex; flex-wrap: wrap; padding-bottom: 70px;}
+.flex15 i{font-size: 2rem; color:cornflowerblue}
+.flex15{ justify-content: space-evenly; border: solid 2px rgb(197, 193, 193); background: white; padding: 15px; height:100px; width: 320px;}
+.flex15 h3{margin-top:0px;margin-bottom:0px;}
+.free{justify-content: flex-start;}
+/*section12*/
+.map{width:100%}
+/*section13*/
+.flex16{display: flex; flex-wrap: wrap;width:15%; font-size: larger; margin: auto;}
+.footer{background: black; color: rgb(201, 233, 213);text-align: center;padding-top: 60px; padding-bottom: 60px;}
