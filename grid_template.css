@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    overflow-x:scroll;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.bgcolor {
+    background-color: rgb(36, 34, 34);
+}
+
+.clrwhite {
+    color: white;
+}
+
+.clrred {
+    color: red;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+.grid,
+.gridmenu,
+.gridbanner figure,
+.gridwelcome,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid1,
+.grid6,
+.fonti {
+    display: grid;
+}
+
+.grid {
+    grid-template-columns: 20% 80%;
+}
+
+.gridmenu {
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 40%;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.gridmenu>div {
+    background-color: rgb(228, 9, 9);
+    color:rgb(0, 0, 0)
+    font-size: 3rem;
+}
+
+.gridbanner {
+    width: 100%;
+}
+
+.gridbanner figure {
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.gridbanner figure img {
+    margin-top: 10px;
+    height: 30vh;
+}
+
+.gridwelcome {
+    grid-template-columns: 20% 80%;
+    margin: 30px auto;
+}
+
+.gridwelcome .welcome {
+    font-size: 2.8rem;
+    border-right: 1px solid rgb(188, 186, 186);
+}
+
+.gridwelcome div:first-child::first-letter {
+    color: red;
+}
+
+.gridwelcome .description {
+    color: rgb(188, 186, 186);
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.grid2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 0;
+    column-gap: 30px;
+}
+
+.grid2 div h2,
+.grid2 div img,
+.grid2 div span {
+    margin: 5px 0;
+}
+
+.grid2 div span {
+    color: rgb(188, 186, 186);
+}
+
+.grid2 div h5 {
+    margin-top: 20px;
+}
+
+.rmore {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.grid3,
+.grid4 {
+    grid-template-columns: auto auto;
+}
+
+.h2 {
+    font-size: 2rem;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.grid4 .aboutme {
+    margin-top: 50px;
+    padding: 10px;
+    line-height: 1.8;
+}
+
+.aboutme .spclp {
+    border-bottom: 1px solid rgb(188, 186, 186);
+    padding: 10px 0;
+    color: rgb(188, 186, 186);
+}
+
+.grid1 {
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+.grid1 div {
+    width: 50%;
+    padding: 5px;
+    margin: 0 10PX;
+}
+
+.grid1 div p {
+    padding: 5px 0px;
+}
+
+.grid1 p a {
+    color: red;
+}
+
+.grid6 {
+    grid-template-columns: auto auto auto auto;
+    gap: 30px 15px;
+}
+
+.fonti {
+    grid-template-columns: auto auto auto auto;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.fonti div {
+    padding: 5px 10px;
+}
+
+.fonti div a i {
+    color: rgb(188, 186, 186);
+}
+
+.fonti div a i:hover,
+.gridmenu div a:hover {
+    color: rgb(70, 69, 69);
+}
+
+@media only screen and (max-width: 575px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .media {
+        width: 100%;
+    }
+    .grid {
+        align-items: end;
+    }
+    .grid div img {
+        padding: 2px;
+    }
+    .gridmenu {
+        margin: 10px 2px;
+        justify-content: end;
+    }
+    .gridmenu div {
+        font-size: 1rem;
+        padding-left: 15px;
+    }
+    .gridbanner figure {
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .gridbanner figure img {
+        margin-top: 5px;
+        height: 20vh;
+    }
+    .gridwelcome {
+        grid-template-columns: 100%;
+        margin: 10px auto;
+    }
+    .gridwelcome .welcome {
+        font-size: 1.8rem;
+        padding: 2px 0px;
+        border: none;
+    }
+    .gridwelcome .description {
+        font-size: 0.9rem;
+        padding: 4px;
+    }
+    .grid2 {
+        grid-template-columns: 1fr 1fr;
+        padding: 5px 0px;
+        column-gap: 10px;
+    }
+    .grid2 div h5 {
+        margin: 15px auto;
+    }
+    .grid3,
+    .grid4 {
+        grid-template-columns: auto;
+    }
+    .grid4 .aboutme {
+        margin: 0;
+        padding: 5px;
+        line-height: none;
+        font-size: 1rem;
+    }
+    .h2 {
+        font-size: 1.5rem;
+    }
+    .grid1 {
+        justify-content: space-evenly;
+        line-height: 1;
+    }
+    .grid6 {
+        grid-template-columns: auto auto auto;
+        /* gap: 5px 8px; */
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .grid6 img {
+        width: 180px;
+    }
+    .container2 {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .container {
+        width: 95%;
+    }
+    .media {
+        width: 100%;
+    }
+    .grid {
+        align-items: center;
+    }
+    .gridmenu {
+        align-items: center;
+        box-sizing: border-box;
+    }
+    .gridmenu div:nth-child(5) {
+        padding-right: 4px;
+    }
+    .gridmenu div {
+        font-size: 0.9rem;
+    }
+    .gridbanner figure {
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .gridbanner figure img {
+        margin-top: 5px;
+        height: 10vh;
+    }
+    .gridwelcome {
+        grid-template-columns: 100%;
+        margin: 10px auto;
+    }
+    .gridwelcome .welcome {
+        font-size: 1.5rem;
+        padding: 2px 0px;
+        border: none;
+    }
+    .gridwelcome .description {
+        font-size: 0.8rem;
+        padding: 2px 0px;
+    }
+    .grid2 {
+        grid-template-columns: 1fr;
+        padding: 5px 0px;
+        column-gap: 10px;
+    }
+    .grid2 div h5 {
+        margin: 15px auto;
+    }
+    .grid2 span {
+        display: block;
+        padding: 0 3px;
+    }
+    .grid2 div img {
+        width: 95%;
+    }
+    .grid3,
+    .grid4 {
+        grid-template-columns: auto;
+    }
+    .grid4 .aboutme {
+        margin: 0;
+        padding: 5px;
+        line-height: none;
+        font-size: 0.8rem;
+    }
+    .h2 {
+        font-size: 1.5rem;
+    }
+    .grid1 {
+        justify-content: space-evenly;
+    }
+    .grid1 div {
+        font-size: 1rem;
+    }
+    .grid6 {
+        grid-template-columns: auto auto;
+        gap: 10px 0px;
+        justify-content: space-around;
+    }
+    .grid6 img {
+        width: 160px;
+    }
+}
