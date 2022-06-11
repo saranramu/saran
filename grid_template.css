@@ -1,0 +1,227 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bgcolor{
+    background-color: white;
+}
+
+.containter{
+    width: 80%;
+    margin-top :20px;
+    margin: 0 auto;
+}
+
+.grid,
+.gridmenu,
+.gridbanner,
+.gridwelcome,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.fonti{
+    display:grid;
+   
+    @media only screen and (min-width: 300px){
+        .responsive{width:auto}
+    }
+    @media only screen and (min-width: 576px){
+        .responsive{width:auto}
+    }
+    @media only screen and (min-width: 992px){
+        .responsive{width:auto}
+    }
+}
+.grid{
+    grid-template-columns:20% 80%;
+    padding:20px;
+}
+.gridmenu{
+   grid-template-columns:auto auto auto auto auto;
+  margin: 10 10 10 10;
+  
+}
+
+.gridmenu>div{
+    background-color: rgb(240, 240, 240);
+    color:rgb(65, 65, 65);
+    padding:10px;
+    font-size:1.5rem;
+}
+
+
+.bgcolor2{
+    background-color: rgb(82, 79, 79);
+}
+
+.gridbanner{
+    grid-template-columns:auto auto auto auto auto;
+    padding:1px;
+    justify-content: space-between;
+
+}
+
+.gridwelcome{
+    grid-template-columns:20% 80%;
+    line-height:1.8;
+    padding:40px;
+
+}
+
+.gridbanner div img{
+    width:250px
+}
+
+.bgcolor3{
+    background-color: rgb(43, 41, 41);
+}
+
+.clrwhite{
+    color:rgb(255, 255, 255);
+}
+
+.clrred{
+    color:rgb(223, 37, 37);
+    padding:10px;
+}
+
+.Welcome{
+    font-size:2.8rem;
+    margin-right:5px;
+    border-right:1px solid rgb(179, 178, 178);
+
+}
+
+.Description{
+    font-size:1rem;
+    color: rgb(179, 178, 178);
+    padding:15px;
+    
+}
+
+.gridwelcome div:first-child::first-letter{
+    color:red;
+
+}
+.bgcolor4{
+    background-color: rgb(7, 7, 7);
+}
+
+.grid2{
+grid-template-columns:auto auto auto auto;
+line-height: 1.8;
+justify-content: space-evenly;
+}
+
+.grid2 div h5{
+    font-size:0.9rem;
+    margin:15px auto;
+}
+
+.grid2 span{
+display: block;
+padding:0px;
+}
+
+.rmore{
+background-color:red;
+font-size:1rem;
+padding:10px;
+color:white;
+}
+
+.bgcolor5{
+    background-color: rgb(80, 79, 79);
+}
+
+.grid3{
+    grid-template-columns:auto auto;
+}
+
+.grid4{
+    grid-template-columns:auto auto;
+}
+
+.h2{
+    font-size:2rem;
+    width:100%;
+    margin:10px 0;
+}
+
+.grid4 .aboutme{
+margin-top:50px;
+line-height:1.8;
+padding:20px;
+}
+.aboutme .spclp{
+    border-bottom:1px solid rgb(179, 178, 178);
+    color:rgb(160, 160, 160);
+    padding:10px 0;
+}
+.grid5{
+    grid-template-columns:auto auto;
+    justify-content:start;
+    gap:10px 15px;
+}
+.grid5 div{
+width:40%;
+}
+.grid5 div p{
+    padding:10px 0;
+}
+.grid5 div p a{
+    color:red;
+    
+}
+.container2 {
+    margin: 20px 0;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+.grid6{
+    grid-template-columns: auto auto auto auto;
+    gap: 30px 15px;  
+    padding:25px;
+}
+
+.grid6 img{
+width:100px;
+}
+
+.bgcolor6{
+ background-color: white;
+}
+.container3{
+ width:80%;
+ padding:20px;
+}
+.fonti{ 
+    grid-template-columns: auto auto auto auto;
+    width:40%;
+    font-size:1.5rem;
+    padding-left:15%;
+    text-align:center;
+    margin:0 auto;
+}
+
+.fonti div a i:hover{ 
+    color:rgb(182, 182, 182);
+}
+
+.gridmenu div a:hover{
+    color:rgb(218, 214, 214);
+}
+
+.mastercontainer{
+    background-color: black;
+    width:80%;
+    margin:0 auto;
+}
